@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Members</b></span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Member Management\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Subscriptions\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Member Management</b></span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Members\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Subscriptions\",\"col\":4}}]",
  "creation": "2026-03-23 00:00:00.000000",
  "doctype": "Workspace",
  "hide_custom": 0,
@@ -45,18 +45,14 @@
  ],
  "links": [
   {
-   "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Member Management",
+   "label": "Members",
    "link_count": 0,
-   "link_to": "",
-   "link_type": "",
    "onboard": 0,
    "type": "Card Break"
   },
   {
-   "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
    "label": "Member",
@@ -67,18 +63,14 @@
    "type": "Link"
   },
   {
-   "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
    "label": "Subscriptions",
    "link_count": 0,
-   "link_to": "",
-   "link_type": "",
    "onboard": 0,
    "type": "Card Break"
   },
   {
-   "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
    "label": "Member Subscription",
