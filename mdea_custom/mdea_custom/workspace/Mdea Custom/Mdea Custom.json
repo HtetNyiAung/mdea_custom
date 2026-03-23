@@ -1,0 +1,92 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Members</b></span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Member Management\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Subscriptions\",\"col\":4}}]",
+ "creation": "2026-03-23 00:00:00.000000",
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "is_hidden": 0,
+ "label": "Mdea Custom",
+ "module": "Mdea Custom",
+ "name": "Mdea Custom",
+ "owner": "Administrator",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 100,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Member",
+   "link_to": "Member",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Member Subscription",
+   "link_to": "Member Subscription",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "new",
+   "label": "New Member",
+   "link_to": "Member",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "new",
+   "label": "New Subscription",
+   "link_to": "Member Subscription",
+   "type": "DocType"
+  }
+ ],
+ "links": [
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Member Management",
+   "link_count": 0,
+   "link_to": "",
+   "link_type": "",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Member",
+   "link_count": 0,
+   "link_to": "Member",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscriptions",
+   "link_count": 0,
+   "link_to": "",
+   "link_type": "",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Member Subscription",
+   "link_count": 0,
+   "link_to": "Member Subscription",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ]
+}
